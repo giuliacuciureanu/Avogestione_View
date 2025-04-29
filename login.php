@@ -11,10 +11,14 @@
 
 <form>
   <label for="username">Username:</label><br>
-  <input type="text" id="username" name="unsername"><br>
+  <input type="text" id="username" name="username"><br>
   <label for="password">Password:</label><br>
   <input type="password" id="password" name="password"><br>
   <input type="submit" value="Invio" id="invio">
+  <input type="password" id="password" name="password">
+  <label for="ruolo">Ruolo:</label><br>
+  <input type="text" id="ruolo" name="ruolo">
+  <input type="submit" value="Invio">
 </form>
 
 
