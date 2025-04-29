@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
+<head>
+<link rel="stylesheet" href="registrazione.css">
+<meta charset="UTF-8">
+ <title>Registrazione</title>
+</head>
 <body>
 
-<h2>BENVENUTO</h2>
-<h3>INSERISCI I TUOI DATI PER REGISTRARTI</h3>
+  <h2>BENVENUTO!</h2>
+  <h3>Inserisci i tuoi dati per registrarti</h3>
 
-<form>
-  <label for="username">Username:</label><br>
-  <input type="text" id="username" name="username"><br>
-  <label for="password">Password:</label><br>
-  <input type="password" id="password" name="password">
-  <label for="ruolo">Ruolo</label>
-      <select name="ruolo" id="ruolo">
-        <option value="Organizzatore">Organizzatore</option>
-        <option value="Studente">Studente</option>
-      </select>
-  <input type="submit" value="Invio">
-</form>
+  <!-- Form per inviare i dati a salva_utente.php -->
+  <form action="salva_utente.php" method="POST">
 
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
 
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="ruolo">Ruolo:</label><br>
+    <select id="ruolo" name="ruolo" required>
+      <option value="">-- Seleziona --</option>
+      <option value="Studente">Studente</option>
+      <option value="Organizzatore">Organizzatore</option>
+    </select><br><br>
+
+    <input type="submit" value="Registrati">
+
+  </form>
 </body>
 </html>
