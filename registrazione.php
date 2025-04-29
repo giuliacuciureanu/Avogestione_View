@@ -12,8 +12,8 @@
   <input type="password" id="password" name="password">
   <label for="ruolo">Ruolo</label>
       <select name="ruolo" id="ruolo">
-        <option value="organizzatore">Organizzatore</option>
-        <option value="studente">Studente</option>
+        <option value="Organizzatore">Organizzatore</option>
+        <option value="Studente">Studente</option>
       </select>
   <input type="submit" value="Invio">
 </form>
