@@ -15,11 +15,9 @@ body {
   }
 
   form{
-    border: 1px;
-    border-color: black;
+   text-align: center;
   }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
+
+  #invio{
+    margin-top: 5px;
   }
