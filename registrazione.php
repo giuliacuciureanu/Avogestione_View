@@ -3,7 +3,7 @@
 <body>
 
 <h2>BENVENUTO</h2>
-<h3>INSERISCI I TUOI DATI PER REGISTRATI</h3>
+<h3>INSERISCI I TUOI DATI PER REGISTRARTI</h3>
 
 <form>
   <label for="username">Username:</label><br>
