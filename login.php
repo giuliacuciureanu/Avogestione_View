@@ -5,7 +5,7 @@
 </head>
 <body>
 <heder> 
-<img src="logo.jpg" alt="logo"> 
+<img src="logo.jpeg" alt="logo"> 
 <h1>AVOGESTIONE</h1>
 </header>
 <br>
