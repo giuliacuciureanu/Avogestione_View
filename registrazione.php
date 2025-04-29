@@ -10,8 +10,11 @@
   <input type="text" id="username" name="username"><br>
   <label for="password">Password:</label><br>
   <input type="password" id="password" name="password">
-  <label for="ruolo">Ruolo:</label><br>
-  <input type="ruolo" id="ruolo" name="ruolo">
+  <label for="ruolo">Ruolo</label>
+      <select name="ruolo" id="ruolo">
+        <option value="organizzatore">Organizzatore</option>
+        <option value="studente">Studente</option>
+      </select>
   <input type="submit" value="Invio">
 </form>
 
