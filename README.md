@@ -1,2 +1,1 @@
 # Avogestione_View
-# gigi
